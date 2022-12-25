@@ -53,27 +53,6 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-	Name = "Get Noob Plushie",
-	Callback = function()
-        game:GetObjects("rbxassetid://10554824520")[1].Parent = game.Players.LocalPlayer.Backpack
-	end,
-})
-
-local Button = Tab:CreateButton({
-	Name = "Get Robux",
-	Callback = function()
-        game:GetObjects("rbxassetid://2629027197")[1].Parent = game.Players.LocalPlayer.Backpack
-	end,
-})
-
-local Button = Tab:CreateButton({
-	Name = "Get Grenade",
-	Callback = function()
-        game:GetObjects("rbxassetid://2655528773")[1].Parent = game.Players.LocalPlayer.Backpack
-	end,
-})
-
-local Button = Tab:CreateButton({
 	Name = "Get Candle",
 	Callback = function()
         game:GetObjects("rbxassetid://2301545900")[1].Parent = game.Players.LocalPlayer.Backpack
