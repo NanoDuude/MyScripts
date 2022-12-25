@@ -60,13 +60,6 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-	Name = "Get Chicken Nugget",
-	Callback = function()
-        game:GetObjects("rbxassetid://10970318134")[1].Parent = game.Players.LocalPlayer.Backpack
-	end,
-})
-
-local Button = Tab:CreateButton({
 	Name = "Get Sword",
 	Callback = function()
         game:GetObjects("rbxassetid://47433")[1].Parent = game.Players.LocalPlayer.Backpack
@@ -74,9 +67,9 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-	Name = "Get Sprite",
+	Name = "Get Bloxy Cola",
 	Callback = function()
-        game:GetObjects("rbxassetid://132633300")[1].Parent = game.Players.LocalPlayer.Backpack
+        game:GetObjects("rbxassetid://66071183")[1].Parent = game.Players.LocalPlayer.Backpack
 	end,
 })
 
